@@ -1,0 +1,42 @@
+@import '../abstracts/variables';
+
+.boton_gris{
+    padding: 10px 20px;
+    background-color: $color_nickel;
+    color: $color_blanco;
+    float: left;
+    margin-left: 30px;
+}
+
+.boton_num{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: $color_blanco;
+    border-color: $color_nickel;
+    color: $color_negro;
+}
+
+.boton_num:hover{
+    background-color: $color_nickel;
+    color: $color_blanco;
+}
+
+.boton_before{
+    background-color: $color_blanco;
+    padding: 10px 20px;
+    color: $color_raisinblack;
+    float: left;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.boton_next{
+    background-color: $color_blanco;
+    padding: 10px 20px;
+    color: $color_raisinblack;
+    float: left;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+}
+

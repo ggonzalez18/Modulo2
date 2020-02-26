@@ -1,0 +1,11 @@
+@import '../abstracts/variables';
+
+.footer_gris{
+    background-color: $color_lightgray;
+    padding: 30px auto;
+}
+
+.footer_negro{
+    background-color: $color_negro;
+    padding: 60px auto;
+}

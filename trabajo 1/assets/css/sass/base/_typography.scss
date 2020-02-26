@@ -1,0 +1,61 @@
+@import '../abstracts/variables';
+
+body{
+    font-family: 'Roboto', ;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Playfair Display', ;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 70px;
+    text-align: center;
+    color: $color_negro;
+}
+
+h3{
+    font-family: 'Playfair Display', ;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: left;
+    color: $color_negro;
+}
+
+p{
+    font-family: 'Playfair Display', ;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: left;
+    color: $color_nickel;
+}
+
+span{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+    color: $color_nickel;
+}
+
+.destacado{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 20px;
+    color: $color_rosalato;
+}
+
+.descripcion{
+    font-size: 12px;
+    text-align: left;
+    line-height: 18px;
+    color: $color_nickel;
+}
+
+.texto_contacto{
+    font-size: 16px;
+    text-align: left;
+    line-height: 18px;
+    color: $color_rosalato;
+}
