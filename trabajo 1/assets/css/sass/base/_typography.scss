@@ -35,27 +35,28 @@ p{
 span{
     font-size: 16px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 25pt;
     color: $color_nickel;
 }
 
 .destacado{
     font-size: 16px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 25pt;
     color: $color_rosalato;
 }
 
-.descripcion{
-    font-size: 12px;
+.descripcion_autor{
+    font-size: 14px;
     text-align: left;
     line-height: 18px;
     color: $color_nickel;
 }
 
-.texto_contacto{
-    font-size: 16px;
+h4{
+    font-size: 12px;
     text-align: left;
     line-height: 18px;
     color: $color_rosalato;
+    font-weight: lighter;
 }

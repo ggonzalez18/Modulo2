@@ -1,0 +1,13 @@
+@import '../abstracts/variables';
+
+.section_parrafo{
+    background-color: $color_blanco;
+    padding-top: 50px;
+}
+
+.div_foto{
+border-radius: 100px;
+width: 200px;
+height: 200px;
+border: 3px $color_nickel;
+}

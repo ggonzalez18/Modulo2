@@ -1,42 +1,50 @@
 @import '../abstracts/variables';
+@import '../abstracts/mixins';
 
 .boton_gris{
     padding: 10px 20px;
     background-color: $color_nickel;
     color: $color_blanco;
     float: left;
-    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    text-decoration: none;
 }
 
 .boton_num{
     width: 20px;
     height: 20px;
-    padding: 5px;
+    padding: 10px;
     background-color: $color_blanco;
     border-color: $color_nickel;
     color: $color_negro;
+    text-decoration: none;
 }
 
-.boton_num:hover{
-    background-color: $color_nickel;
-    color: $color_blanco;
+.boton_num:hover , .boton_before:hover, .boton_next:hover{
+    @include hover_boton_footer ($color_nickel,$color_blanco,"none")
 }
-
 .boton_before{
     background-color: $color_blanco;
     padding: 10px 20px;
     color: $color_raisinblack;
-    float: left;
     border-bottom-left-radius: 40px;
     border-top-left-radius: 40px;
+    text-decoration: none;
 }
 
 .boton_next{
     background-color: $color_blanco;
     padding: 10px 20px;
     color: $color_raisinblack;
-    float: left;
     border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
 }
 

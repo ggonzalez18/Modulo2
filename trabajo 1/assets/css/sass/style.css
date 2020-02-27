@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+  color: #121619;
+}
+
+h3 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: left;
+  color: #121619;
+}
+
+p {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 18px;
+  text-align: left;
+  color: #6C6E70;
+}
+
+span {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25pt;
+  color: #6C6E70;
+}
+
+.destacado {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 25pt;
+  color: #E56353;
+}
+
+.descripcion_autor {
+  font-size: 14px;
+  text-align: left;
+  line-height: 18px;
+  color: #6C6E70;
+}
+
+h4 {
+  font-size: 12px;
+  text-align: left;
+  line-height: 18px;
+  color: #E56353;
+  font-weight: lighter;
+}
+
+.boton_gris {
+  padding: 10px 20px;
+  background-color: #6C6E70;
+  color: white;
+  float: left;
+  margin-right: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
+.boton_num {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: white;
+  border-color: #6C6E70;
+  color: #121619;
+  text-decoration: none;
+}
+
+.boton_num:hover, .boton_before:hover, .boton_next:hover {
+  background-color: #6C6E70;
+  color: white;
+  text-decoration: "none";
+}
+
+.boton_before {
+  background-color: white;
+  padding: 10px 20px;
+  color: #222323;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  text-decoration: none;
+}
+
+.boton_next {
+  background-color: white;
+  padding: 10px 20px;
+  color: #222323;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.section_parrafo {
+  background-color: white;
+  padding-top: 50px;
+}
+
+.div_foto {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  border: 3px #6C6E70;
+}
+
+.img_principal {
+  background-image: url("../../img/post-image.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+.color_menu {
+  background-color: #121619;
+}
+
+.footer_gris {
+  background-color: #D1D1D1;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_negro {
+  background-color: #121619;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */

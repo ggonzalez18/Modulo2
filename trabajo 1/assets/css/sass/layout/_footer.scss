@@ -2,10 +2,14 @@
 
 .footer_gris{
     background-color: $color_lightgray;
-    padding: 30px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // @include seccion($color_lightgray,"100%","30px auto");
 }
 
 .footer_negro{
     background-color: $color_negro;
-    padding: 60px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    // @include seccion($color_negro,"100%","60px auto");
 }
