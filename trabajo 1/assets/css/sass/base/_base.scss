@@ -1,11 +1,11 @@
 @import '../abstracts/variables';
-
 body{
     font-family: 'Roboto';
     padding: 0;
     margin: 0;
 }
 
+// typography
 .title{
     color: $color_blanco;
     font-family: 'Playfair Display';
@@ -16,16 +16,6 @@ body{
     text-shadow: 3px 3px 3px $color_negro;
     padding-bottom: 80px;
 }
-
-h3{
-    font-family: 'Playfair Display';
-    font-style: italic;
-    font-weight: 900;
-    font-size: 30px;
-    text-align: left;
-    color: $color_negro;
-}
-
 p{
     font-family: 'Playfair Display';
     font-weight: 900;
@@ -45,25 +35,31 @@ span{
     }
 }
 
-.autor-descripcion{
-    font-size: 14px;
-    text-align: left;
-    line-height: 18px;
-    line-height: 22px;
-    color: $color_nickel;
+// img contenedor principal
+.img_principal{
+    background-image: url('../../img/post-image.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    // height: 600px;
+    width: 100%;
 }
 
-h4{
-    font-size: 12px;
-    text-align: left;
-    line-height: 18px;
-    color: $color_rosalato;
-    font-weight: lighter;
-}
-@media screen and (max-width: 800px){
-.title{
-font-size:40px;
-padding-top: 90px;
-}
+//body
+
+.section_parrafo{
+    background-color: $color_blanco;
 }
 
+//footer
+
+.footer_gris{
+    background-color: $color_lightgray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_negro{
+    background-color: $color_negro;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
