@@ -1,0 +1,22 @@
+@import '../abstracts/variables';
+
+header {
+    width: 960px;
+    padding: 10px;
+    border-bottom: 1px solid $color_gris;
+}
+
+nav {
+    display: inline-block;
+    width: 840px;
+    text-align: right;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.buscador-menu {
+    border-radius: 30px;
+}

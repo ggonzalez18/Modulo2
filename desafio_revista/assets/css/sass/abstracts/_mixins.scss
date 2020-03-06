@@ -1,0 +1,6 @@
+@import '../abstracts/variables';
+
+@mixin style_borde {
+border-bottom: 1px solid $color_gris;
+}
+

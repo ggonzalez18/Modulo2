@@ -1,0 +1,36 @@
+@import '../abstracts/variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.separacion_tags ul {
+    padding: 0;
+    list-style: none;
+}
+
+.separacion_tags ul li {
+    padding: 2px 4px;
+    background-color: $color_azul;
+    margin-right: 1px;
+    color: $color_blanco;
+}
+
+// @media screen and (max-width: 800px){
+// .title{
+// font-size:40px;
+// padding-top: 90px;
+// }
+// }
+
