@@ -13,6 +13,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
+    color: $color_blanco;
 }
 
 .separacion_tags ul {
@@ -22,15 +23,7 @@ body {
 
 .separacion_tags ul li {
     padding: 2px 4px;
-    background-color: $color_azul;
+    background-color: $color_coral;
     margin-right: 1px;
     color: $color_blanco;
 }
-
-// @media screen and (max-width: 800px){
-// .title{
-// font-size:40px;
-// padding-top: 90px;
-// }
-// }
-
