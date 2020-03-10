@@ -6,9 +6,11 @@ header {
     padding: 10px;
     @include style_borde;
     background-color: $color_gris;
-    @include vista-sm;
-}
 
+}
+    // @include small{
+    //     width: 100%;
+    // }
 nav {
     display: inline-block;
     width: 88%;

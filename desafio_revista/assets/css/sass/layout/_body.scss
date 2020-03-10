@@ -2,8 +2,9 @@
 @import '../abstracts/mixins';
 
 // body{
-//     background-image: url('/assets/img/fondo.jpg');
+//     background-image: url('../../img/fondo.jpg');
 //     background-size: 100%;
+//     opacity: 0.3;
 // }
 
  .contenedor_principal {
@@ -24,6 +25,9 @@
     display: inline-block;
     margin: 5px;
     cursor: pointer;
+    // @include small{
+    //     width: 100%;
+    // }
 }
 
 .cuerpo_noticia img {
