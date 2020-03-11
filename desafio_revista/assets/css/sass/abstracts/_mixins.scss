@@ -4,6 +4,7 @@
 border-bottom: 1px solid $color_coral;
 }
 
+<<<<<<< HEAD
 // @include vista_sm ('small') {
 // width: 100%;
 // }
@@ -32,3 +33,34 @@ border-bottom: 1px solid $color_coral;
     }
 }
 
+=======
+  // @mixin vista_sm (small) {
+  //   width: 100%;
+  // }
+  // @include vista_medium ('small','medium') {
+  //   width: 50%;
+  // }
+  // @include vista_large('large','xl') {
+  //   width: 100%;
+  // }
+
+
+//  @mixin small{
+//    @media(min-width: 576px){
+//     }
+//   }
+
+//  @mixin medium{
+//   @media(min-width: 768px){
+//   }
+//   }
+// @mixin large{
+//  @media(min-width: 992px){
+//    }
+//  }
+
+//  @mixin no-visible{
+//   @media(min-width: 992px){
+//   }
+//  }
+>>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d

@@ -8,12 +8,19 @@ header {
     padding: 10px;
     @include style_borde;
     background-color: $color_gris;
+<<<<<<< HEAD
     @include vista-sm {
     width: 100%;}
     @include vista-md {
     width: 100%;}
 }
+=======
+>>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
+}
+    // @include small{
+    //     width: 100%;
+    // }
 nav {
     display: inline-block;
     width: 88%;
