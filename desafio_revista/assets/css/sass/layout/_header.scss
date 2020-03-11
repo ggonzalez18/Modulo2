@@ -1,18 +1,27 @@
 @import '../abstracts/variables';
 @import '../abstracts/mixins';
 
+
+
 header {
     width: 100%;
     padding: 10px;
     @include style_borde;
     background-color: $color_gris;
-    @include vista-sm;
+    @include vista-sm {
+    width: 100%;}
+    @include vista-md {
+    width: 100%;}
 }
 
 nav {
     display: inline-block;
     width: 88%;
     text-align: right;
+    @include vista-sm {
+    width: 88%;}
+    @include vista-md {
+    width: 88%;}
 }
 
 nav ul li a {
