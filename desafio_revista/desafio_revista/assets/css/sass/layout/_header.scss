@@ -5,30 +5,35 @@
 
 header {
     width: 100%;
-    padding: 10px;
+    height: 70px;
+    padding: 15px 10px 10px 10px;
     @include style_borde;
     background-color: $color_gris;
-<<<<<<< HEAD
     @include vista-sm {
     width: 100%;}
     @include vista-md {
     width: 100%;}
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
-}
-    // @include small{
-    //     width: 100%;
-    // }
 nav {
-    display: inline-block;
-    width: 88%;
+    float: right;
+    width: 60%;
     text-align: right;
-    @include vista-sm {
-    width: 88%;}
-    @include vista-md {
-    width: 88%;}
+}
+
+li {
+    display: inline;
+}
+li:first-child{
+    @include vista-none{
+        display: none;
+    }
+}
+
+.style_list_nav{
+    padding-left: 0;
+    display: inline;
+    list-style: none;
 }
 
 nav ul li a {

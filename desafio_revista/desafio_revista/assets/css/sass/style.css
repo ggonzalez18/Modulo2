@@ -10,7 +10,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  display: inline-block;
+  float: left;
   color: white;
 }
 
@@ -35,84 +35,69 @@ body {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   .group input,
 .group button {
     font-size: 22px;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 .group button {
   background-color: #fa6c38;
   color: white;
 }
 
-<<<<<<< HEAD
 body {
   margin: 0px;
   padding: 0px;
 }
 
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 .contenedor_principal {
   width: 960px;
   margin: 0 auto;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   .contenedor_principal {
     width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .contenedor_principal {
     width: 100%;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 .section_noticias {
   width: 100%;
   margin: 0 auto;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   .section_noticias {
     width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .section_noticias {
     width: 100%;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 .section-noticias-izquierdo {
   width: 73%;
   float: left;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   .section-noticias-izquierdo {
     width: 100%;
     text-align: center;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .section-noticias-izquierdo {
     width: 100%;
     text-align: center;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 .contenedor_noticia {
   width: 30%;
@@ -120,14 +105,15 @@ body {
   margin: 5px;
   cursor: pointer;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   .contenedor_noticia {
-    width: 100%;
+    width: 95%;
+    margin: 0;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   .contenedor_noticia {
+    margin: 0;
     width: 48%;
     text-align: center;
   }
@@ -139,43 +125,24 @@ body {
 }
 
 .cuerpo_noticia img {
-  width: 95%;
+  width: 100%;
   height: 300px;
   border: 2px solid white;
-}
-@media (max-width: 576px) {
-  .cuerpo_noticia img {
-    width: 95%;
-  }
 }
 
 .cuerpo_noticia p {
   padding: 5px 10px;
   font-size: 14px;
-=======
-
-.cuerpo_noticia img {
-  width: 210px;
-  height: 300px;
-  border: 2px solid white;
-}
-
-.cuerpo_noticia p {
-  padding: 5px 10px;
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 }
 
 .separacion_tags {
   border-bottom: 1px solid #fa6c38;
 }
-<<<<<<< HEAD
 @media (max-width: 768px) {
   .separacion_tags {
     display: none;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 .contenedor-noticias-destacadas {
   margin-bottom: 50px;
@@ -190,14 +157,11 @@ body {
   width: 23%;
   float: right;
 }
-<<<<<<< HEAD
 @media (max-width: 768px) {
   .noticias-listado-derecho {
     display: none;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 .noticias-cabecera-listado {
   width: 220px;
@@ -216,51 +180,49 @@ body {
   font-size: 24px;
 }
 
-<<<<<<< HEAD
 .newsletter p {
   font-size: 18px;
 }
 
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 header {
   width: 100%;
-  padding: 10px;
+  height: 70px;
+  padding: 15px 10px 10px 10px;
   border-bottom: 1px solid #fa6c38;
   background-color: gray;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   header {
     width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 768px) {
   header {
     width: 100%;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 nav {
-  display: inline-block;
-  width: 88%;
+  float: right;
+  width: 60%;
   text-align: right;
 }
-<<<<<<< HEAD
-@media (max-width: 576px) {
-  nav {
-    width: 88%;
-  }
+
+li {
+  display: inline;
 }
+
 @media (max-width: 768px) {
-  nav {
-    width: 88%;
+  li:first-child {
+    display: none;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
+
+.style_list_nav {
+  padding-left: 0;
+  display: inline;
+  list-style: none;
+}
 
 nav ul li a {
   text-decoration: none;
@@ -284,7 +246,6 @@ footer p {
   color: white;
   font-size: 16px;
 }
-<<<<<<< HEAD
 @media (max-width: 576px) {
   footer p {
     font-size: 12px;
@@ -295,7 +256,5 @@ footer p {
     width: 100%;
   }
 }
-=======
->>>>>>> 0eb0a9e5da547dd9495126f343f7ea21181c0f6d
 
 /*# sourceMappingURL=style.css.map */
